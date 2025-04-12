@@ -2,16 +2,58 @@
 <html>
 
 <head>
+    <title>Descobrimento do Brasil</title>
     <style>
+        body {
+            background-color: #e0f5e0; 
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
         h1 {
             text-align: center;
+            color: green; 
         }
 
         .menu {
             text-align: right;
+            margin-bottom: 20px;
+        }
+
+        .menu a {
+            font-size: 18px;
+            font-weight: bold;
+            margin-left: 15px;
+            text-decoration: none;
+            color: #006400; 
+        }
+
+        .menu a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-top: 20px;
+        }
+
+        .content img {
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .text {
+            width: 55%;
+            padding-left: 10px;
+        }
+
+        .text p {
+            margin-bottom: 10px;
+            text-align: justify;
         }
     </style>
-    <title>Descobrimento do Brasil</title>
 </head>
 
 <body>
@@ -24,10 +66,63 @@
 
     <h1>Linha do Tempo</h1>
 
-    <div>
-        Cascading Style Sheets. Cascading Style Sheets (CSS) é uma linguagem
-        de folhas de estilo utilizada para definir a apresentação de documentos escritos
-        em uma linguagem de marcação, como HTML ou XML.
+    <div class="content">
+        <div class="text">
+            <p>
+                O Descobrimento do Brasil ocorreu em 22 de abril de 1500, quando a frota portuguesa comandada por Pedro
+                Álvares Cabral chegou à costa do atual território brasileiro. A expedição partiu de Lisboa com o
+                objetivo de alcançar as Índias, contornando o continente africano. No entanto, devido a uma mudança
+                deliberada ou acidental na rota, os navios acabaram avistando terra firme no que hoje é o sul do estado
+                da Bahia.
+            </p>
+            <p>
+                Logo após a chegada, os portugueses mantiveram os primeiros contatos com os povos indígenas que
+                habitavam a região há milhares de anos. A primeira missa em solo brasileiro foi celebrada no dia 26 de
+                abril, marcando simbolicamente o início da presença portuguesa nas novas terras.
+            </p>
+            <p>
+                Embora o território inicialmente não tenha despertado tanto interesse econômico, com o tempo o Brasil
+                passou a ser explorado por suas riquezas naturais, especialmente o pau-brasil, uma árvore de alto valor
+                comercial na Europa. Esse período marcou o começo da colonização portuguesa e da transformação cultural,
+                social e ambiental do território.
+            </p>
+            <p>
+                O Descobrimento do Brasil não foi um evento isolado, mas parte do contexto maior da Expansão Marítima
+                Europeia, quando os países europeus buscavam novas rotas comerciais e territórios para explorar. A
+                partir desse momento, teve início um processo profundo que moldaria a história, a cultura e a identidade
+                do povo brasileiro.
+            </p>
+        </div>
+
+        <div>
+            <img src="/Imagens/b1a6803-descobrimento-do-brasil-0000-800x445.webp">
+        </div>
+    </div>
+
+    <div class="content" style="flex-direction: row-reverse;">
+        <div class="text">
+            <p>
+                O Descobrimento do Brasil deve ser compreendido dentro do cenário da Expansão Marítima e Comercial
+                Europeia dos séculos XV e XVI. Na época, Portugal e Espanha eram protagonistas das grandes navegações,
+                buscando rotas alternativas para alcançar as riquezas do Oriente, como especiarias, ouro e tecidos. Para
+                evitar disputas territoriais, os dois países assinaram o Tratado de Tordesilhas (1494), que dividia o
+                "Novo Mundo" entre eles.
+            </p>
+            <p>
+                Quando Pedro Álvares Cabral chegou ao território brasileiro, os portugueses perceberam que as novas
+                terras estavam dentro da zona que lhes cabia pelo tratado. Isso facilitou a posse da região e o início
+                do processo de colonização.
+            </p>
+            <p>
+                Nos primeiros anos após o descobrimento, o interesse em relação ao Brasil foi limitado. Apenas o
+                pau-brasil, árvore de coloração avermelhada utilizada na fabricação de tinturas, era extraído com a
+                ajuda de indígenas, em um sistema conhecido como escambo (troca de produtos europeus por trabalho).
+            </p>
+        </div>
+
+        <div>
+            <img src="/Imagens/mundonauticodescbanner.jpg">
+        </div>
     </div>
 
 </body>
