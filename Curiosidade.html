@@ -1,35 +1,155 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="pt-BR">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curiosidades sobre o Descobrimento</title>
     <style>
-        h1 {
-            text-align: center;
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #a1b69e;
         }
-
+        
         .menu {
             text-align: right;
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        .menu a {
+            font-size: 18px;
+            font-weight: bold;
+            margin-left: 15px;
+            text-decoration: none;
+            color: #006400;
+        }
+
+        .menu a:hover {
+            text-decoration: underline;
+        }
+        
+        header {
+            background-color: #2E8B57;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 5px;
+        }
+        
+        h1, h2 {
+            color: #006400;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 2rem;
+        }
+        
+        .highlight {
+            background-color: #f8f8d7;
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+        }
+        
+        .curiosity-box {
+            background-color: #f0f8ff;
+            border-left: 4px solid #2E8B57;
+            padding: 1rem;
+            margin: 1.5rem 0;
+        }
+        
+        .action-buttons {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        
+        .action-btn {
+            display: inline-block;
+            background-color: #2E8B57;
+            color: white;
+            padding: 12px 24px;
+            margin: 0 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        
+        .action-btn:hover {
+            background-color: #3CB371;
         }
     </style>
-    <title>Descobrimento do Brasil</title>
 </head>
-
 <body>
 
     <div class="menu">
-        <a href="/Menu.html">Menu</a>
-        <a href="/História.html">História</a>
-        <a href="/Linha_do_Tempo.html">Linha do tempo</a>
+        <a href="História.html">História</a>
+        <a href="Curiosidade.html">Curiosidade</a>
+        <a href="Linha_do_Tempo.html">Linha do tempo</a>
     </div>
 
-    <h1>Curiosidade</h1>
+    <header>
+        <h1>Curiosidades sobre o Descobrimento</h1>
+        <p>Fatos surpreendentes que você talvez não conheça</p>
+    </header>
+    
+    <main>
+        <div class="action-buttons">
+            <a href="#linha-tempo" class="action-btn">Linha Cronológica</a>
+            <a href="contexto.html" class="action-btn">História</a>
+            <a href="#menu" class="action-btn">Menu</a>
+        </div>
 
-    <div>
-        Cascading Style Sheets. Cascading Style Sheets (CSS) é uma linguagem
-        de folhas de estilo utilizada para definir a apresentação de documentos escritos
-        em uma linguagem de marcação, como HTML ou XML.
-    </div>
-
+        <article>
+            
+            
+            <div class="curiosity-box">
+                <h2>1. O Brasil quase foi espanhol</h2>
+                <p>O navegador espanhol Vicente Yáñez Pinzón chegou ao cabo de Santo Agostinho (PE) em <strong>26 de janeiro de 1500</strong>, quase 3 meses antes de Cabral. Porém, como estava ao sul da linha de Tordesilhas, Portugal reivindicou a descoberta.</p>
+            </div>
+            
+            <div class="curiosity-box">
+                <h2>2. O "achamento" do Brasil</h2>
+                <p>Os portugueses usavam o termo achamento em vez de "descobrimento", pois tecnicamente não estavam procurando por essas terras. Os documentos oficiais da época sempre se referiam ao "achado" do Brasil.</p>
+            </div>
+            
+            <div class="curiosity-box">
+                <h2>3. A carta que quase se perdeu</h2>
+                <p>A famosa carta de Pero Vaz de Caminha quase foi perdida quando o navio que a levava para Portugal naufragou próximo às ilhas de Cabo Verde. Felizmente, uma cópia foi salva e chegou ao rei D. Manuel.</p>
+            </div>
+            
+            <div class="curiosity-box">
+                <h2>4. O misterioso desaparecimento de dois degredados</h2>
+                <p>Cabral deixou dois degredados (exilados) para aprenderem a língua nativa. Quando a expedição de Gaspar de Lemos retornou meses depois, os degredados haviam desaparecido sem deixar rastros, gerando várias teorias sobre seu destino.</p>
+            </div>
+            
+            <div class="curiosity-box">
+                <h2>5. O primeiro produto explorado não foi o pau-brasil</h2>
+                <p>Antes mesmo do pau-brasil, os portugueses levaram para Europa <strong>papagaios e macacos</strong> como curiosidades exóticas. O primeiro carregamento comercial foi de toras de madeira de uma árvore chamada "ibira pitanga" (ancestral do pau-brasil).</p>
+            </div>
+            
+        </article>
+    </main>
+    
+    <footer>
+        <p>© 2023 História do Brasil | Todos os direitos reservados</p>
+    </footer>
 </body>
-
 </html>
